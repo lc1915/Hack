@@ -49,6 +49,7 @@ public class NotificationVIew extends Activity {
                 Toast.makeText(getApplicationContext(), "抢单成功！", Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(NotificationVIew.this, NextView.class);
                 startActivity(intent);
+                NotificationVIew.this.finish();
             }
         });
 
@@ -57,6 +58,7 @@ public class NotificationVIew extends Activity {
 
         // ---cancel the notification that we started---
         //nm.cancel(getIntent().getExtras().getInt("notificationID"));
+
     }
 
     @Override

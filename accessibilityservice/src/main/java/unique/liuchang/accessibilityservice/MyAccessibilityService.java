@@ -98,7 +98,8 @@ public class MyAccessibilityService extends AccessibilityService {
                     Log.e("c", "c");
 
                 case AccessibilityEvent.TYPES_ALL_MASK:
-                    Log.e("b", "b");
+                    String mclassName = event.getClassName().toString();
+                    Log.e("bb", mclassName);
 
                 case AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED:
                     String className = event.getClassName().toString();
@@ -112,7 +113,7 @@ public class MyAccessibilityService extends AccessibilityService {
                             //List<AccessibilityNodeInfo> list = nodeInfo
                             //        .findAccessibilityNodeInfosByViewId("unique.liuchang.sendnotification:id/new_button1");
                             List<AccessibilityNodeInfo> list = nodeInfo
-                                    .findAccessibilityNodeInfosByText("new_button1");
+                                    .findAccessibilityNodeInfosByText("抢单");
                             for (AccessibilityNodeInfo n : list) {
                                 n.performAction(AccessibilityNodeInfo.ACTION_CLICK);
                             }
@@ -128,7 +129,7 @@ public class MyAccessibilityService extends AccessibilityService {
                             //List<AccessibilityNodeInfo> list = nodeInfo
                             //        .findAccessibilityNodeInfosByViewId("unique.liuchang.sendnotification:id/new_button1");
                             List<AccessibilityNodeInfo> list = nodeInfo
-                                    .findAccessibilityNodeInfosByText("new_button1");
+                                    .findAccessibilityNodeInfosByText("抢单");
                             for (AccessibilityNodeInfo n : list) {
                                 n.performAction(AccessibilityNodeInfo.ACTION_CLICK);
                             }

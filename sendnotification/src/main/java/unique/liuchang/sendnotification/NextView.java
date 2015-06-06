@@ -22,7 +22,7 @@ public class NextView extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_next_view);
 
-        editText = (EditText)findViewById(R.id.editText);
+        editText = (EditText) findViewById(R.id.editText);
 
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -31,21 +31,24 @@ public class NextView extends Activity {
             }
         }, 5000);
 
-        numButton = (Button)findViewById(R.id.button_num);
+        numButton = (Button) findViewById(R.id.button_num);
         numButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-        //        new Handler().postDelayed(new Runnable() {
-        //            @Override
-        //            public void run() {
-                        Toast.makeText(getApplicationContext(), "成功呼出!", Toast.LENGTH_SHORT).show();
-                        Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:"
-                                + "15527597072"));
-                        NextView.this.startActivity(intent);
-        //            }
-        //        }, 1000);
+                //        new Handler().postDelayed(new Runnable() {
+                //            @Override
+                //            public void run() {
+                Toast.makeText(getApplicationContext(), "成功呼出!", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:"
+                        + "15527597072"));
+                NextView.this.startActivity(intent);
+                NextView.this.finish();
+                //            }
+                //        }, 1000);
             }
         });
+
+
     }
 
     @Override

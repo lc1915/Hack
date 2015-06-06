@@ -15,7 +15,7 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
-    private Button button;
+    //private Button button;
     int notificationID = 1;
 
     @Override
@@ -29,16 +29,20 @@ public class MainActivity extends Activity {
                 Intent intent = new Intent(MainActivity.this, NotificationVIew.class);
                 startActivity(intent);
                 //MainActivity.this.finish();
+                MainActivity.this.finish();
             }
         }, 3000);
 
-        button = (Button)findViewById(R.id.button);
+        //button.setVisibility(View.INVISIBLE) ;
+
+        /*button = (Button)findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 //displayNotification();
             }
-        });
+        });*/
+
     }
 
     protected void displayNotification()
