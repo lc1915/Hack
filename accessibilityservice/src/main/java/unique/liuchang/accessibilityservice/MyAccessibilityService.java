@@ -18,6 +18,7 @@ public class MyAccessibilityService extends AccessibilityService {
 
     private Context mContext;
     private String mClassName = "";
+    private boolean flag = true;
 
     @Override
     protected void onServiceConnected() {
@@ -92,7 +93,8 @@ public class MyAccessibilityService extends AccessibilityService {
                         //nodeInfo.performAction(AccessibilityNodeInfo.ACTION_CLICK);
                     }
 
-                    if (className.equals("unique.liuchang.sendnotification.NextView")) {
+                    if (className.equals("unique.liuchang.sendnotification.NextView") && flag == true) {
+                        flag = false;
                         AccessibilityNodeInfo nodeInfo1 = getRootInActiveWindow();
                         //AccessibilityNodeInfo nodeInfo = event.getSource();
                         //nodeInfo.findAccessibilityNodeInfosByViewId("unique.liuchang.sendnotification:id/new_button1");
