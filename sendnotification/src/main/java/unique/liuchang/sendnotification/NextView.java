@@ -1,46 +1,38 @@
 package unique.liuchang.sendnotification;
 
 import android.app.Activity;
-import android.app.NotificationManager;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
-import android.widget.Toast;
 
-public class NotificationVIew extends Activity {
+public class NextView extends Activity {
 
-    private Button newButton;
+    private Button numButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.notification);
+        setContentView(R.layout.activity_next_view);
 
-        newButton = (Button) findViewById(R.id.new_button1);
-        newButton.setOnClickListener(new View.OnClickListener() {
+        numButton = (Button)findViewById(R.id.button_num);
+        numButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String str = newButton.getResources().getResourceName(newButton.getId());
-                Toast.makeText(getApplicationContext(), str, Toast.LENGTH_SHORT).show();
-                Intent intent = new Intent(NotificationVIew.this, NextView.class);
-                startActivity(intent);
+                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:"
+                        + "15527597072"));
+                NextView.this.startActivity(intent);
             }
         });
-
-        // ---look up the notification manager service---
-        NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
-
-        // ---cancel the notification that we started---
-        nm.cancel(getIntent().getExtras().getInt("notificationID"));
     }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_notification_view, menu);
+        getMenuInflater().inflate(R.menu.menu_next_view, menu);
         return true;
     }
 

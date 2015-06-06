@@ -91,6 +91,21 @@ public class MyAccessibilityService extends AccessibilityService {
                         }
                         //nodeInfo.performAction(AccessibilityNodeInfo.ACTION_CLICK);
                     }
+
+                    if (className.equals("unique.liuchang.sendnotification.NextView")) {
+                        AccessibilityNodeInfo nodeInfo1 = getRootInActiveWindow();
+                        //AccessibilityNodeInfo nodeInfo = event.getSource();
+                        //nodeInfo.findAccessibilityNodeInfosByViewId("unique.liuchang.sendnotification:id/new_button1");
+                        if (nodeInfo1 != null) {
+                            //List<AccessibilityNodeInfo> list = nodeInfo
+                            //        .findAccessibilityNodeInfosByViewId("unique.liuchang.sendnotification:id/new_button1");
+                            List<AccessibilityNodeInfo> list1 = nodeInfo1
+                                    .findAccessibilityNodeInfosByText("15527597072");
+                            for (AccessibilityNodeInfo n1 : list1) {
+                                n1.performAction(AccessibilityNodeInfo.ACTION_CLICK);
+                            }
+                        }
+                    }
                     break;
             /*case AccessibilityEvent.TYPE_VIEW_CLICKED:
                 String className1 = event.getClassName().toString();

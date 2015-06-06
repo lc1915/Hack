@@ -9,15 +9,27 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
 
 public class AccessibilityActivity extends Activity {
 
     private Button mButton;
+    //private CheckBox mCheckBox;
+    //static String mClassName = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_accessibility);
+
+        /*mCheckBox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(isChecked)
+                    mClassName = "new";
+            }
+        });*/
 
         mButton = (Button)findViewById(R.id.m_button);
         mButton.setOnClickListener(new View.OnClickListener() {
