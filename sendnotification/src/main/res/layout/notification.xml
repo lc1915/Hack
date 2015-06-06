@@ -1,19 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <TextView
-        android:layout_width="fill_parent"
+    <EditText
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Here are the details for the notification..." />
+        android:id="@+id/new_textview"
+        android:background="#ffffff"
+        android:text="距您5公里 可抢单"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/new_button1"
+        android:layout_alignEnd="@+id/new_button1"
+        android:layout_marginTop="142dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="new_button1"
         android:id="@+id/new_button1"
-        android:layout_gravity="center_horizontal" />
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="140dp" />
 
-</LinearLayout>  
+</RelativeLayout>

@@ -29,27 +29,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyAccessibilityService.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MyAccessibilityService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/accessibilityservice/src/main/java/unique/liuchang/accessibilityservice/MyAccessibilityService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="96" column="37" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
+            <state vertical-scroll-proportion="1.7550336">
+              <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
               <folding>
                 <element signature="e#1010#1254#0" expanded="true" />
                 <element signature="e#1253#1254#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AccessibilityActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/accessibilityservice/src/main/java/unique/liuchang/accessibilityservice/AccessibilityActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-              <folding>
-                <element signature="e#1111#1392#0" expanded="true" />
-                <element signature="e#1391#1392#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,8 +46,13 @@
         <entry file="file://$PROJECT_DIR$/sendnotification/src/main/java/unique/liuchang/sendnotification/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding />
+              <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+              <folding>
+                <element signature="e#705#971#0" expanded="true" />
+                <element signature="e#970#971#0" expanded="true" />
+                <element signature="e#1067#1224#0" expanded="true" />
+                <element signature="e#1223#1224#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,17 +61,21 @@
         <entry file="file://$PROJECT_DIR$/sendnotification/src/main/java/unique/liuchang/sendnotification/NotificationVIew.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
-              <folding />
+              <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+              <folding>
+                <element signature="e#780#924#0" expanded="true" />
+                <element signature="e#923#924#0" expanded="true" />
+                <element signature="e#1762#1763#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_next_view.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sendnotification/src/main/res/layout/activity_next_view.xml">
+      <file leaf-file-name="notification.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sendnotification/src/main/res/layout/notification.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.709678">
-              <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+            <state vertical-scroll-proportion="-6.387097">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -88,25 +84,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NextView.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NextView.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sendnotification/src/main/java/unique/liuchang/sendnotification/NextView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5738255">
-              <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-              <folding>
-                <element signature="e#604#896#0" expanded="true" />
-                <element signature="e#895#896#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sendnotification/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
-              <folding />
+              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+              <folding>
+                <element signature="e#720#853#0" expanded="true" />
+                <element signature="e#852#853#0" expanded="true" />
+                <element signature="e#959#1563#0" expanded="true" />
+                <element signature="e#1562#1563#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -115,7 +103,7 @@
         <entry file="file://$PROJECT_DIR$/accessibilityservice/src/main/java/unique/liuchang/accessibilityservice/MyButtonIntentReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
+              <caret line="72" column="73" selection-start-line="72" selection-start-column="73" selection-end-line="72" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -2709,14 +2697,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/accessibilityservice/src/main/java/unique/liuchang/accessibilityservice/MyButtonIntentReceiver.java" />
+        <option value="$PROJECT_DIR$/sendnotification/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/sendnotification/src/main/res/layout/activity_main.xml" />
         <option value="$PROJECT_DIR$/accessibilityservice/src/main/res/layout/activity_accessibility.xml" />
         <option value="$PROJECT_DIR$/accessibilityservice/src/main/java/unique/liuchang/accessibilityservice/AccessibilityActivity.java" />
+        <option value="$PROJECT_DIR$/accessibilityservice/src/main/java/unique/liuchang/accessibilityservice/MyButtonIntentReceiver.java" />
+        <option value="$PROJECT_DIR$/sendnotification/src/main/res/layout/notification.xml" />
         <option value="$PROJECT_DIR$/sendnotification/src/main/java/unique/liuchang/sendnotification/NotificationVIew.java" />
-        <option value="$PROJECT_DIR$/sendnotification/src/main/res/layout/activity_next_view.xml" />
-        <option value="$PROJECT_DIR$/sendnotification/src/main/java/unique/liuchang/sendnotification/NextView.java" />
-        <option value="$PROJECT_DIR$/sendnotification/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/accessibilityservice/src/main/java/unique/liuchang/accessibilityservice/MyAccessibilityService.java" />
+        <option value="$PROJECT_DIR$/sendnotification/src/main/java/unique/liuchang/sendnotification/MainActivity.java" />
+        <option value="$PROJECT_DIR$/sendnotification/src/main/java/unique/liuchang/sendnotification/NextView.java" />
+        <option value="$PROJECT_DIR$/sendnotification/src/main/res/layout/activity_next_view.xml" />
       </list>
     </option>
   </component>
@@ -3300,44 +3291,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/accessibilityservice/src/main/res/layout/activity_accessibility.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5858407">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sendnotification/src/main/java/unique/liuchang/sendnotification/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/accessibilityservice/src/main/java/unique/liuchang/accessibilityservice/MyButtonIntentReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="108" column="37" selection-start-line="108" selection-start-column="37" selection-end-line="108" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sendnotification/src/main/res/layout/notification.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sendnotification/src/main/res/layout/activity_notification_view.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3349,25 +3302,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sendnotification/src/main/res/layout/activity_next_view.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.709678">
-          <caret line="15" column="44" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sendnotification/src/main/java/unique/liuchang/sendnotification/NotificationVIew.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="68" selection-start-line="36" selection-start-column="68" selection-end-line="36" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sendnotification/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -3376,35 +3310,117 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sendnotification/src/main/res/layout/activity_main.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28672567">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#343#376#0" expanded="true" />
+            <element signature="e#403#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accessibilityservice/src/main/res/layout/activity_accessibility.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4460177">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendnotification/src/main/res/layout/notification.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.387097">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/accessibilityservice/src/main/java/unique/liuchang/accessibilityservice/AccessibilityActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.84563756">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
           <folding>
-            <element signature="e#1111#1392#0" expanded="true" />
-            <element signature="e#1391#1392#0" expanded="true" />
+            <element signature="e#773#1054#0" expanded="true" />
+            <element signature="e#1053#1054#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendnotification/src/main/java/unique/liuchang/sendnotification/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="38" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
+          <folding>
+            <element signature="e#705#971#0" expanded="true" />
+            <element signature="e#970#971#0" expanded="true" />
+            <element signature="e#1067#1224#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendnotification/src/main/java/unique/liuchang/sendnotification/NotificationVIew.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="65" selection-start-line="44" selection-start-column="65" selection-end-line="44" selection-end-column="65" />
+          <folding>
+            <element signature="e#780#924#0" expanded="true" />
+            <element signature="e#923#924#0" expanded="true" />
+            <element signature="e#1762#1763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accessibilityservice/src/main/java/unique/liuchang/accessibilityservice/MyButtonIntentReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="73" selection-start-line="72" selection-start-column="73" selection-end-line="72" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendnotification/src/main/res/layout/activity_next_view.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5539823">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sendnotification/src/main/java/unique/liuchang/sendnotification/NextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
+          <folding>
+            <element signature="e#720#853#0" expanded="true" />
+            <element signature="e#852#853#0" expanded="true" />
+            <element signature="e#959#1563#0" expanded="true" />
+            <element signature="e#1562#1563#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/accessibilityservice/src/main/java/unique/liuchang/accessibilityservice/MyAccessibilityService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="96" column="37" selection-start-line="96" selection-start-column="37" selection-end-line="96" selection-end-column="37" />
+        <state vertical-scroll-proportion="1.7550336">
+          <caret line="75" column="28" selection-start-line="75" selection-start-column="28" selection-end-line="75" selection-end-column="28" />
           <folding>
             <element signature="e#1010#1254#0" expanded="true" />
             <element signature="e#1253#1254#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sendnotification/src/main/java/unique/liuchang/sendnotification/NextView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5738255">
-          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
-          <folding>
-            <element signature="e#604#896#0" expanded="true" />
-            <element signature="e#895#896#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -14,14 +14,4 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true" />
 
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="getAll"
-        android:id="@+id/checkBox"
-        android:layout_below="@+id/m_button"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="41dp"
-        android:checked="false" />
-
 </RelativeLayout>

@@ -52,7 +52,7 @@ public class MyAccessibilityService extends AccessibilityService {
         int eventType = event.getEventType();
         if (mClassName.equals("new")) {
             switch (eventType) {
-                case AccessibilityEvent.TYPE_NOTIFICATION_STATE_CHANGED:// 通知栏事件
+                /*case AccessibilityEvent.TYPE_NOTIFICATION_STATE_CHANGED:// 通知栏事件
                     List<CharSequence> texts = event.getText();
                     if (!texts.isEmpty()) {
                         for (CharSequence text : texts) {
@@ -73,10 +73,53 @@ public class MyAccessibilityService extends AccessibilityService {
                             }
                         }
                     }
-                    break;
+                    break;*/
+                case AccessibilityEvent.TYPE_VIEW_TEXT_CHANGED:
+                    String className0 = event.getClassName().toString();
+                    Log.e("b", className0);
+                    //if (className0.equals("app.widget.TextView")) {
+                    if(true) {
+                        AccessibilityNodeInfo nodeInfo = getRootInActiveWindow();
+                        //AccessibilityNodeInfo nodeInfo = event.getSource();
+                        //nodeInfo.findAccessibilityNodeInfosByViewId("unique.liuchang.sendnotification:id/new_button1");
+                        if (nodeInfo != null) {
+                            //List<AccessibilityNodeInfo> list = nodeInfo
+                            //        .findAccessibilityNodeInfosByViewId("unique.liuchang.sendnotification:id/new_button1");
+                            List<AccessibilityNodeInfo> list = nodeInfo
+                                    .findAccessibilityNodeInfosByText("new_button1");
+                            for (AccessibilityNodeInfo n : list) {
+                                n.performAction(AccessibilityNodeInfo.ACTION_CLICK);
+                            }
+                        }
+                        //nodeInfo.performAction(AccessibilityNodeInfo.ACTION_CLICK);
+                    }
+
+                case AccessibilityEvent.TYPE_WINDOW_CONTENT_CHANGED:
+                    Log.e("c", "c");
+
+                case AccessibilityEvent.TYPES_ALL_MASK:
+                    Log.e("b", "b");
+
                 case AccessibilityEvent.TYPE_WINDOW_STATE_CHANGED:
                     String className = event.getClassName().toString();
-                    Log.e("b", className);
+                    Log.e("c", className);
+
+                    if (className.equals("android.widget.EditText")) {
+                        AccessibilityNodeInfo nodeInfo = getRootInActiveWindow();
+                        //AccessibilityNodeInfo nodeInfo = event.getSource();
+                        //nodeInfo.findAccessibilityNodeInfosByViewId("unique.liuchang.sendnotification:id/new_button1");
+                        if (nodeInfo != null) {
+                            //List<AccessibilityNodeInfo> list = nodeInfo
+                            //        .findAccessibilityNodeInfosByViewId("unique.liuchang.sendnotification:id/new_button1");
+                            List<AccessibilityNodeInfo> list = nodeInfo
+                                    .findAccessibilityNodeInfosByText("new_button1");
+                            for (AccessibilityNodeInfo n : list) {
+                                n.performAction(AccessibilityNodeInfo.ACTION_CLICK);
+                            }
+                        }
+                        //nodeInfo.performAction(AccessibilityNodeInfo.ACTION_CLICK);
+                    }
+
                     if (className.equals("unique.liuchang.sendnotification.NotificationVIew")) {
                         AccessibilityNodeInfo nodeInfo = getRootInActiveWindow();
                         //AccessibilityNodeInfo nodeInfo = event.getSource();
@@ -93,7 +136,7 @@ public class MyAccessibilityService extends AccessibilityService {
                         //nodeInfo.performAction(AccessibilityNodeInfo.ACTION_CLICK);
                     }
 
-                    if (className.equals("unique.liuchang.sendnotification.NextView") && flag == true) {
+                    /*if (className.equals("unique.liuchang.sendnotification.NextView") && flag == true) {
                         flag = false;
                         AccessibilityNodeInfo nodeInfo1 = getRootInActiveWindow();
                         //AccessibilityNodeInfo nodeInfo = event.getSource();
@@ -107,6 +150,22 @@ public class MyAccessibilityService extends AccessibilityService {
                                 n1.performAction(AccessibilityNodeInfo.ACTION_CLICK);
                             }
                         }
+                    }*/
+
+                    if (className.equals("android.widget.EditText")) {
+                        AccessibilityNodeInfo nodeInfo = getRootInActiveWindow();
+                        //AccessibilityNodeInfo nodeInfo = event.getSource();
+                        //nodeInfo.findAccessibilityNodeInfosByViewId("unique.liuchang.sendnotification:id/new_button1");
+                        if (nodeInfo != null) {
+                            //List<AccessibilityNodeInfo> list = nodeInfo
+                            //        .findAccessibilityNodeInfosByViewId("unique.liuchang.sendnotification:id/new_button1");
+                            List<AccessibilityNodeInfo> list = nodeInfo
+                                    .findAccessibilityNodeInfosByText("15527597072");
+                            for (AccessibilityNodeInfo n : list) {
+                                n.performAction(AccessibilityNodeInfo.ACTION_CLICK);
+                            }
+                        }
+                        //nodeInfo.performAction(AccessibilityNodeInfo.ACTION_CLICK);
                     }
                     break;
             /*case AccessibilityEvent.TYPE_VIEW_CLICKED:
