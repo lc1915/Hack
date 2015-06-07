@@ -19,6 +19,7 @@ public class MyAccessibilityService extends AccessibilityService {
     private Context mContext;
     private String mClassName = "";
     private boolean flag = true;
+    private AccessibilityEvent lastEvent;
 
     @Override
     protected void onServiceConnected() {
@@ -35,6 +36,9 @@ public class MyAccessibilityService extends AccessibilityService {
             public void onReceive(Context context, Intent intent) {
                 Log.i("demo service", "demo " + intent.getAction());
                 mClassName = "new";
+                if (lastEvent != null){
+
+                }
             }
         }, filter);
     }
@@ -48,7 +52,7 @@ public class MyAccessibilityService extends AccessibilityService {
     @Override
     @SuppressLint("NewApi")
     public void onAccessibilityEvent(AccessibilityEvent event) {
-
+        lastEvent = event;
         int eventType = event.getEventType();
         if (mClassName.equals("new")) {
             switch (eventType) {
