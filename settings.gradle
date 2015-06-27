@@ -1,1 +1,1 @@
-include ':app', ':accessibilityservice', ':sendnotification'
+include ':app', ':accessibilityservice', ':sendnotification', ':getmoney'

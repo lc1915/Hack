@@ -24,12 +24,12 @@ public class NextView extends Activity {
 
         editText = (EditText) findViewById(R.id.editText);
 
-        new Handler().postDelayed(new Runnable() {
+        /*new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
                 editText.setText(" ");
             }
-        }, 5000);
+        }, 5000);*/
 
         numButton = (Button) findViewById(R.id.button_num);
         numButton.setOnClickListener(new View.OnClickListener() {

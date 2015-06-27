@@ -25,12 +25,12 @@ public class NotificationVIew extends Activity {
 
         newTextView = (EditText)findViewById(R.id.new_textview);
 
-        new Handler().postDelayed(new Runnable() {
+        /*new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
                 newTextView.setText("距您5公里,可抢单");
             }
-        }, 5000);
+        }, 5000);*/
 
         /*new Handler().postDelayed(new Runnable() {
             @Override

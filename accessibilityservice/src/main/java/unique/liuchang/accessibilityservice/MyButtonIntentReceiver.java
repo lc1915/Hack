@@ -79,6 +79,7 @@ public class MyButtonIntentReceiver extends BroadcastReceiver {
         case KeyEvent.KEYCODE_MEDIA_NEXT:
           // context.startService(new Intent(MusicService.ACTION_SKIP));
           Log.i(LOG_TAG, "demo_next");
+          context.sendBroadcast(new Intent("unique.liuchang.action.on"));
           break;
         case KeyEvent.KEYCODE_MEDIA_PREVIOUS:
           Log.i(LOG_TAG, "demo_PRE");

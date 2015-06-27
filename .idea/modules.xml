@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Hack.iml" filepath="$PROJECT_DIR$/Hack.iml" />
       <module fileurl="file://$PROJECT_DIR$/accessibilityservice/accessibilityservice.iml" filepath="$PROJECT_DIR$/accessibilityservice/accessibilityservice.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/getmoney/getmoney.iml" filepath="$PROJECT_DIR$/getmoney/getmoney.iml" />
       <module fileurl="file://$PROJECT_DIR$/sendnotification/sendnotification.iml" filepath="$PROJECT_DIR$/sendnotification/sendnotification.iml" />
     </modules>
   </component>
